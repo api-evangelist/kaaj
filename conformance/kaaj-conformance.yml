@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+source: https://kaaj.trust.site
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: SOC 2 Type II compliance published on trust center (kaaj.trust.site) and data-security page
+- id: oauth2
+  conforms: false
+  evidence: no public OpenAPI or documented OAuth surface; API host requires provisioned credentials
+- id: oidc
+  conforms: false
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public spec available to assert error format
+- id: fapi
+  conforms: false
+- id: rfc8594-deprecation
+  conforms: false

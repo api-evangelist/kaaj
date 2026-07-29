@@ -1,0 +1,21 @@
+{
+  "repo": "kaaj",
+  "feeds": [
+    {
+      "source": "https://docs.kaaj.ai/blog/rss.xml",
+      "feed_url": "https://docs.kaaj.ai/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://docs.kaaj.ai/",
+      "feed_url": "https://docs.kaaj.ai/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 4,
+  "fetched": "2026-07-25T15:00:33Z"
+}

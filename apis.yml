@@ -1,7 +1,18 @@
 aid: kaaj
 name: Kaaj
-description: Kaaj is a company surfaced as a portfolio company of kindred-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Kaaj is the agentic AI underwriting operating system for small business (SMB)
+  lending. It helps lenders, brokers, equipment finance companies, merchant cash
+  advance (MCA) funders, and community banks turn messy borrower packages into
+  decision-ready credit analysis in under five minutes. Specialized AI agents
+  handle document intake and classification across 40+ document types, Know-Your-
+  Business (KYB) verification, bank statement analysis and cash-flow spreading,
+  fraud and document-tampering detection, and evidence-backed credit memo
+  generation, with a human-in-the-loop by design. Kaaj layers onto existing
+  underwriting operations through email intake, embedded forms, a REST API with
+  webhooks, and CRM/LOS integrations (Salesforce, HubSpot, Dynamics). Founded in
+  San Francisco in 2024 by Utsav Shah and Shivi Sharma, Kaaj is SOC 2 Type II
+  compliant and has processed over $15B in loan originations.
 url: https://raw.githubusercontent.com/api-evangelist/kaaj/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +20,50 @@ x-backed-by:
 - kindred-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://kaaj.ai/og/homepage.png
 tags:
 - Company
-apis: []
+- Fintech
+- Lending
+- Underwriting
+- Credit Risk
+- Small Business
+- Artificial Intelligence
+- Agentic AI
+- Document Intelligence
+- KYB
+- Fraud Detection
+- Bank Statement Analysis
+apis:
+- name: Kaaj Underwriting API
+  description: >-
+    Kaaj's REST API for submitting borrower application packages and receiving
+    decision-ready credit analysis, with webhook callbacks. Access is
+    authenticated (the base host requires credentials) and provisioned to
+    customers; no public OpenAPI is published as of this profile.
+  humanURL: https://docs.kaaj.ai/
+  baseURL: https://api.kaaj.ai
+  tags:
+  - Lending
+  - Underwriting
+  - Credit
+  properties:
+  - type: Documentation
+    url: https://docs.kaaj.ai/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,3 +72,43 @@ maintainers:
 common:
 - type: Website
   url: https://kaaj.ai/
+- type: DeveloperPortal
+  url: https://docs.kaaj.ai/
+- type: Documentation
+  url: https://docs.kaaj.ai/
+- type: Blog
+  url: https://kaaj.ai/blog
+- type: Pricing
+  url: https://kaaj.ai/pricing
+- type: Support
+  url: https://kaaj.ai/contact
+- type: PrivacyPolicy
+  url: https://kaaj.ai/privacy-policy
+- type: StatusPage
+  url: https://status.kaaj.ai/
+- type: TrustCenter
+  url: https://kaaj.trust.site
+- type: Compliance
+  url: https://kaaj.trust.site
+- type: LLMsTxt
+  url: llms/kaaj-llms.txt
+- type: TrustCenter
+  name: Trust Center Profile
+  url: security/kaaj-trust-center.yml
+- type: Conformance
+  url: conformance/kaaj-conformance.yml
+- type: DomainSecurity
+  url: security/kaaj-domain-security.yml
+- type: WellKnown
+  url: well-known/kaaj-well-known.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/kaaj-ai/
+- type: Twitter
+  url: https://x.com/kaaj_ai
+- type: YouTube
+  url: https://www.youtube.com/@Kaaj-ai
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

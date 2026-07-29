@@ -1,0 +1,32 @@
+generated: '2026-07-19'
+method: searched
+source: probed /.well-known/ on Kaaj hosts
+hosts:
+- host: https://kaaj.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 200
+    file: ../llms/kaaj-llms.txt
+- host: https://api.kaaj.ai
+  note: host is live but returns 401 (authentication required); not publicly discoverable
+  documents:
+  - path: /.well-known/security.txt
+    status: 401
+- host: https://docs.kaaj.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /openapi.json
+    status: 404
+  - path: /openapi.yaml
+    status: 404

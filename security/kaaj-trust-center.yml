@@ -1,0 +1,33 @@
+generated: '2026-07-19'
+method: searched
+probe: false
+source: https://kaaj.trust.site
+url: https://kaaj.trust.site
+legal_entity: Kaaj Technologies Inc.
+certifications:
+- SOC 2 Type II
+subprocessors:
+- name: Microsoft Azure
+  purpose: Infrastructure hosting
+- name: GitHub
+  purpose: Version control
+- name: Cloudflare
+  purpose: Hosting / CDN
+- name: Office 365
+  purpose: Identity and access management / productivity
+- name: Microsoft Teams
+  purpose: Collaboration
+- name: Microsoft Entra ID
+  purpose: Identity and access management
+notes: >-
+  Trust center lists "+2 more" subprocessors and 30+ published security policies
+  (Acceptable Usage, Asset Management, Code of Business Conduct, and others). The
+  data-security page (https://kaaj.ai/data-security) states Kaaj is SOC 2 Type II
+  compliant with controls for the security, availability, and confidentiality of
+  financial-services data. No public bug bounty or named responsible-disclosure
+  program or security contact was found on the trust center as of this profile.
+evidence:
+- source: https://kaaj.trust.site
+  keywords: [soc 2, trust center, subprocessors, security policies]
+- source: https://kaaj.ai/data-security
+  keywords: [soc 2 type ii]
