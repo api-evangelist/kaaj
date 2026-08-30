@@ -2,10 +2,6 @@
   "repo": "kaaj",
   "feeds": [
     {
-      "source": "https://docs.kaaj.ai/blog/rss.xml",
-      "error": "HTTPError"
-    },
-    {
       "source": "https://docs.kaaj.ai/",
       "feed_url": "https://docs.kaaj.ai/",
       "title": "",
@@ -14,5 +10,5 @@
     }
   ],
   "post_count": 4,
-  "fetched": "2026-08-22T20:20:02Z"
+  "fetched": "2026-08-30T22:33:40Z"
 }
