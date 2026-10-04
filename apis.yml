@@ -46,7 +46,23 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 image: https://kaaj.ai/og/homepage.png
+x-docs-platform: scalar
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-10-03
 tags:
+- Company
+- Fintech
+- Lending
+- Underwriting
+- Credit Risk
+- Small Business
+- Artificial Intelligence
+- AI Agents
+- Document Intelligence
+- KYB
+- Fraud Prevention
+- Bank Statement Analysis
+tags_raw:
 - Company
 - Fintech
 - Lending
