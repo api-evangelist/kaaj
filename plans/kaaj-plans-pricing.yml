@@ -1,0 +1,40 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://kaaj.ai/pricing
+sources:
+- https://kaaj.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: No numeric prices; pricing described qualitatively (platform fee + included volume + usage overages),
+  exact pricing requires contact.
+plan_count: 4
+plans:
+- name: Workflow pilot
+  price_text: Discuss a pilot
+  period: none
+  included_quota: Focused workflow configuration; Limited application volume; Success criteria; Optional
+    implementation support
+- name: Platform + volume
+  price_text: Get pricing
+  period: none
+  included_quota: Monthly platform fee; Included application allowance
+  overage: Overage pricing above included volume
+- name: Usage credits
+  price_text: Talk to us
+  period: none
+  included_quota: Monthly usage credits across products
+- name: Enterprise workflow
+  price_text: Book a demo
+  period: none
+  included_quota: Custom workflow design; CRM/LOS sync; security review
+  overage: Negotiated usage and implementation structure
