@@ -38,3 +38,38 @@ plans:
   period: none
   included_quota: Custom workflow design; CRM/LOS sync; security review
   overage: Negotiated usage and implementation structure
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - metered
+  units: []
+  plans:
+  - name: Workflow pilot
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Platform + volume
+    access: other
+    model: metered
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Usage credits
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Enterprise workflow
+    access: other
+    model: metered
+    model_how: derived
+    units: []
+    periods:
+    - none
